@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">ABHINAV</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#Contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>HI, it's me</h3>
+            <h1>ABHINAV REDDY</h1>
+            <h3>I AM <Span>TECHNOLOGY ENTHUSIAST </Span> </h3>
+            <p> </p>
+            <div class="Social-media">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+           
+          <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BGU7E8yS0RPuIj4l7xJvwvw%3D%3D" class="btn"> view linkedin</a>
+        </div>
+        <div class="abhi-img">
+            <img src="abhi.jpg" alt="">
+
+        </div>
+    </section>
+    <section class="About" id="about">
+        <div class="download-img">
+            <img src="greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="">
+        </div>
+        <div class="About-content">
+            <h3><span>ABOUT ME</span></h3>
+            <p><b>Hello, I am Abhinav, a computer science student with a passion for staying abreast of emerging trends in the field.
+                I am dedicated to continuous learning,<span>actively exploring and acquiring knowledge about new developments in the field.</span>My goal is to apply this knowledge to create innovative and dynamic innovation</b></p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="s-img">
+            <img src="lee-campbell-DtDlVpy-vvQ-unsplash.jpg" alt="">
+        </div>
+        <div class="skills-content">
+            <h3><span>SKILLS</span></h3>
+            <p>I possess knowledge in <span><br>HTML,<br> CSS,<br> C <br>data structures,<br> and Python,<br> with a foundational understanding of Java.<br></span>
+                I am enthusiastic about acquiring proficiency in various programming languages and staying updated on the latest advancements.</p>
+        </div>
+    </section>
+
+
+    
+    <section class="Contact" id="Contact">
+        <div class="Contact-content">
+            <h3>Contact Me</h3>
+            <form id="contactForm" action="send_form.php" method="post" onsubmit="return validateForm()">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            <div id="formMessage"></div>
+        </div>
+    </section>
+    
+    <footer>
+        <h2>You can reach me at</h2>
+        
+        <h1><a href="abhinav120304@gmail.com">abhinav120304@gmail.com</a></h1>
+    </footer>
+    
+
+</body>
+</html>
